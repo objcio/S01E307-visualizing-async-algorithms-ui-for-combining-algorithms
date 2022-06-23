@@ -14,7 +14,7 @@ extension Stream {
         case .input1:
             return Text("input1").foregroundColor(.red)
         case .input2:
-            return Text("input1").foregroundColor(.green)
+            return Text("input2").foregroundColor(.green)
         case .merge(let l, let r):
             return Text("merge(\(l.pretty), \(r.pretty))")
         case .chain(let l, let r):
